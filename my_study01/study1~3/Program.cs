@@ -56,3 +56,22 @@ class ExerciseCH1_5_3
     }
 }*/
 
+/*---- 2장 예제 및 실습 문제 -----*/
+
+
+/* 열거형 
+ * 지정어 : enum , 내부의 원소는 0부터 시작하는 순서값을 가진다.
+ * 정수형 <-> 열거형 으로 교환 가능하다.*//*
+
+enum Color { Red, Green, Blue };
+class EnumTypeApp
+{
+    public static void Main()
+    {
+        Color c = Color.Red;
+        c++;
+        int i = (int)c;
+        Console.WriteLine("Cardinality of "+c+" =  "+i);
+    }
+}*/
+
